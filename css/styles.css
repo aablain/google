@@ -10,6 +10,8 @@ box-sizing: border-box;
 body {
   padding: 20px;
   color: #fff;
+  max-width: 1380px;
+  margin: auto;
 }
 
 #left div {
@@ -59,20 +61,6 @@ a {
     transform: scale(1.1);
 }
 
-/*#header {
- background-image: url(../img/rooftop.jpg);
- background-position: center center;
- background-repeat: no-repeat;
- background-size: cover;
-}*/
-
-/*#leftpic {
-  background-image: url(../img/hike.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}*/
-
 #header img, #leftpic img, #rightpic img {
   width: 100%;
   height: 100%;
@@ -81,6 +69,11 @@ a {
 
 #leftpic:hover, #rightpic:hover {
   background-position:
+}
+
+.textbox {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
@@ -114,11 +107,6 @@ a {
     height: 240px;
   }
 
-  /*#left img, #right img {
-    width: 100%;
-    float: left;
-  }*/
-
   #left div, #right div {
     display: inline-block;
   }
@@ -130,6 +118,10 @@ a {
   .textbox {
     height: 40%;
     margin-top: -4px;
+  }
+
+  .textbox h2 {
+    margin-bottom: 5px;
   }
 }
 
@@ -193,6 +185,11 @@ a {
     min-height: 125px;
     width: 70%;
     margin-top: 0;
+  }
+
+
+  .textbox h2 {
+    margin-bottom: 17px;
   }
 
   #leftright {
